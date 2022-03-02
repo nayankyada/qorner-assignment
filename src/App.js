@@ -84,7 +84,7 @@ function App() {
       <Header />
       <Date setValue={setDate} value={date} date={renderDate} setUpdatedDate={setUpdatedDate}/>
       {isError ? (
-        <div className="px-4 flex justify-center items-center font-encodeSans" >
+        <div className="px-4 mt-8 flex justify-center items-center font-encodeSans" >
           
           <p className="p-4 shadow-xl rounded-2xl text-red-400">Custom Error Message</p>
         </div>
