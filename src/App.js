@@ -40,6 +40,7 @@ function App() {
     
     setRenderDate(str);
     setIsLoading(true)
+    setIsError(false)
     fetch(
       `https://qorner-mock-server.herokuapp.com/stats?startDate=${moment(
         date[0]
