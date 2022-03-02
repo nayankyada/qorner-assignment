@@ -91,7 +91,7 @@ function Chart(props) {
         <ResponsiveContainer width={350} height={250}>
           <LineChart
             data={props.data.data}
-            margin={{ left: -10, right: 35, top: 40 }}
+            margin={{  top: 40 }}
           >
             <CartesianGrid vertical={false} />
 

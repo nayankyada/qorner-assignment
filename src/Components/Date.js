@@ -27,7 +27,7 @@ function Date(props) {
                       ref={startProps.inputRef}
                       {...startProps.inputProps}
                     />
-                    <p className="pl-2">to</p>
+                    <p className="">to</p>
                     <input
                       className="pl-2 w-16 outline-none"
                       ref={endProps.inputRef}
